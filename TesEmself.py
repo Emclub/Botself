@@ -35,8 +35,8 @@ Exc = [line]
 lineMID = line.getProfile().mid
 bot1 = line.getProfile().mid
 RfuBot=[lineMID]
-Family=["ud8df669ca1df692811df130505950b50",lineMID]
-admin=['ud8df669ca1df692811df130505950b50',lineMID]
+Family=["u080454625a082b5818071bde115e45a",lineMID]u080454625a082b5818071bde115e45afu080454625a082b5818071bde115e45af
+admin=['u080454625a082b5818071bde115e45af',lineMID
 RfuFamily = RfuBot + Family
 
 protectname = []
@@ -76,7 +76,7 @@ settings = {
     "pnharfbot": {},
     "pname": {},
     "pro_name": {},
-    "message":"บัญชีนี้ได้การป้องกันโดย ༺ πနးຫຮี่のีধ์ ༻ ระบบได้ทำการบล็อคคุณอัตโนมัติ",
+    "message":"บัญชีนี้ได้การป้องกันโดยเอ็มBotSelf ระบบได้ทำการบล็อคคุณอัตโนมัติ",
     "comment":"ขอบคุณที่แอดมา",
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
@@ -679,8 +679,8 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "ud8df669ca1df692811df130505950b50"
-                        creator = line.getContact(owner)
+                        owner = "u080454625a082b5818071bde115e45af"
+                        ผู้สร้าง = บรรทัด getContact ( เจ้าของ )
                         contact = line.getContact(lineMID)
                         grouplist = line.getGroupIdsJoined()
                         contactlist = line.getAllContactIds()
